@@ -214,16 +214,58 @@
                 nav: false,
                 autoplay: true,
                 smartSpeed: 1700,
-                dots:true, 
+                dots:false, 
                 responsiveClass: true,
-//                responsive: {
-//                    0: {
-//                        items: 1,
-//                    },
-//                    768: {
-//                        items: 3,
-//                    },
-//                }
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 3,
+                    },
+                }
+            })
+        }
+
+        if ( $('.pocinha_slider').length ){
+            $('.pocinha_slider').owlCarousel({
+                loop:true,
+                margin: 30,
+                items: 1,
+                nav: false,
+                autoplay: true,
+                smartSpeed: 1700,
+                dots:false, 
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 3,
+                    },
+                }
+            })
+        }
+
+        if ( $('.seco_slider').length ){
+            $('.seco_slider').owlCarousel({
+                loop:true,
+                margin: 30,
+                items: 1,
+                nav: false,
+                autoplay: true,
+                smartSpeed: 1700,
+                dots:false, 
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 3,
+                    },
+                }
             })
         }
     }

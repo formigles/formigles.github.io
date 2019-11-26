@@ -166,7 +166,7 @@ button:focus {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 0;
-    border: 3px solid #f9f9ff; }
+    border: 3px solid #fdebee; }
     @media (max-width: 991px) {
       .main_title .round-planet {
         display: none; } }
@@ -180,7 +180,7 @@ button:focus {
     margin-left: -15px;
     width: 100px;
     height: 100px;
-    background: url(../img/banner/shape4.png) no-repeat;
+    background: url(../img/banner/shape1.png) no-repeat;
     left: 12px;
     top: 12px;
     -webkit-animation: spin1 15s linear infinite;
@@ -192,7 +192,7 @@ button:focus {
     margin-left: -15px;
     width: 80px;
     height: 80px;
-    background: url(../img/banner/shape3.png) no-repeat;
+    background: url(../img/banner/shape2.png) no-repeat;
     left: 24px;
     bottom: 8px;
     -webkit-animation: spin2 10s linear infinite;
@@ -554,7 +554,7 @@ button:focus {
   right: -300px;
   top: 0px;
   height: 100%;
-  background: #f9f9ff;
+  background: #fdebee;
   width: 100%;
   max-width: 300px;
   text-align: center;
@@ -679,7 +679,7 @@ button:focus {
   .home_banner .full_height {
     min-height: 100vh; }
   .home_banner .banner_left {
-    background: #f9f9ff;
+    background: #fdebee;
     height: 100vh;
     padding: 0 16%; }
     @media (max-width: 480px) {
@@ -712,7 +712,7 @@ button:focus {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 0;
-    border: 3px solid #f9f9ff; }
+    border: 3px solid #fdebee; }
     @media (max-width: 991px) {
       .home_banner .banner_right .round-planet {
         display: none; } }
@@ -924,7 +924,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background: #f9f9ff;
+    background: #fdebee;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
       color: #000000;
@@ -1131,7 +1131,7 @@ button:focus {
 ============================================================================================ */
 /*================= latest_blog_area css =============*/
 .latest_blog_area {
-  background: #f9f9ff; }
+  background: #fdebee; }
 
 .single-recent-blog-post {
   margin-bottom: 30px; }
@@ -1670,7 +1670,17 @@ button:focus {
     .reservation {
       padding: 50px 0; } }
   .reservation.gray {
-    background: #f9f9ff; }
+    background: #fdebee; }
+  .reservation .container {
+    text-align: center;
+  }
+  .reservation .logo-contato {
+    margin-bottom: 30px;
+  }
+  .reservation img {
+    width: 240px;
+    height: auto;
+  }
 
 .book_table_inner .table_img {
   padding-top: 80px;
@@ -1679,7 +1689,7 @@ button:focus {
   position: relative; }
 
 .table_form {
-  background: #f9f9ff;
+  background: #fdebee;
   height: 100%;
   padding: 110px 100px; }
   .table_form h3 {
@@ -2159,20 +2169,20 @@ h6 {
 
 .genric-btn.default {
   color: #222222;
-  background: #f9f9ff;
+  background: #fdebee;
   border: 1px solid transparent; }
 
 .genric-btn.default:hover {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #fdebee;
   background: #fff; }
 
 .genric-btn.default-border {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #fdebee;
   background: #fff; }
 
 .genric-btn.default-border:hover {
   color: #222222;
-  background: #f9f9ff;
+  background: #fdebee;
   border: 1px solid transparent; }
 
 .genric-btn.primary {
@@ -2277,29 +2287,29 @@ h6 {
 
 .genric-btn.link {
   color: #222222;
-  background: #f9f9ff;
+  background: #fdebee;
   text-decoration: underline;
   border: 1px solid transparent; }
 
 .genric-btn.link:hover {
   color: #222222;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #fdebee;
   background: #fff; }
 
 .genric-btn.link-border {
   color: #222222;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #fdebee;
   background: #fff;
   text-decoration: underline; }
 
 .genric-btn.link-border:hover {
   color: #222222;
-  background: #f9f9ff;
+  background: #fdebee;
   border: 1px solid transparent; }
 
 .genric-btn.disable {
   color: #222222, 0.3;
-  background: #f9f9ff;
+  background: #fdebee;
   border: 1px solid transparent;
   cursor: not-allowed; }
 
@@ -2459,7 +2469,7 @@ h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0 20px; }
 
 .single-input:focus {
@@ -2487,7 +2497,7 @@ h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0 20px;
   height: 100px;
   resize: none; }
@@ -2501,7 +2511,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0 20px; }
 
 .single-input-primary:focus {
@@ -2514,7 +2524,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0 20px; }
 
 .single-input-accent:focus {
@@ -2527,7 +2537,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0 20px; }
 
 .single-input-secondary:focus {
@@ -2986,7 +2996,7 @@ h6 {
   border: none;
   border-radius: 0px;
   height: 40px;
-  background: #f9f9ff !important;
+  background: #fdebee !important;
   padding-left: 45px;
   padding-right: 40px;
   width: 100%; }
@@ -3055,7 +3065,7 @@ h6 {
 
 .main_btn2 {
   display: inline-block;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0px 45px;
   color: #222222;
   font-family: "Roboto", sans-serif;
@@ -3101,7 +3111,7 @@ h6 {
 
 .white_btn {
   display: inline-block;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0px 50px;
   color: #222222;
   font-family: "Roboto", sans-serif;
@@ -3168,7 +3178,7 @@ h6 {
 
 .blog_btn {
   border: 1px solid #eeeeee;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
@@ -3279,7 +3289,7 @@ h6 {
 ============================================================================================ */
 .menu_area {
   overflow: hidden;
-  background: #f9f9ff;
+  background: #fdebee;
   padding: 180px 0 120px; }
   @media (max-width: 992px) {
     .menu_area {
@@ -3387,7 +3397,7 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: #f9f9ff; }
+  background: #fdebee; }
   .testimonials_area .owl-dots {
     position: absolute;
     right: 52%;
@@ -3397,11 +3407,20 @@ h6 {
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-  .testimonials_area .testi_slider .item img {
-    border-radius: 5px; }
-  .testimonials_area .testi_slider .item .col-lg-8 {
+  .testimonials_area .round-planet {
+    border: solid 3px white;
+  }
+  .owl-carousel .item img {
+    max-height: 350px;
+    width: auto;
+    border-radius: 5px;
+    display: inline-block; }
+  .testi_slider .item,
+  .pocinha_slider .item,
+  .seco_slider .item {
     vertical-align: middle;
-    align-self: center; }
+    align-self: center; 
+    text-align: center; }
   .testimonials_area .testi_slider .item .testi_text {
     padding-left: 60px; }
     .testimonials_area .testi_slider .item .testi_text h4 {
@@ -3418,6 +3437,10 @@ h6 {
       font-style: italic;
       margin-bottom: 0px;
       max-width: 590px; }
+  .testimonials_area img.testi_profile {
+    border-radius: 250px;
+    border: solid whitesmoke;
+  }
 
 /* End Testimonials Area css
 ============================================================================================ */
@@ -3601,6 +3624,14 @@ h6 {
       .footer-bottom .footer-social a:hover {
         color: #fff;
         background: #f42f2c; }
+
+.top_dish_area .round-planet .shape,
+.menu_area .round-planet .shape,
+.gallery_area .round-planet .shape,
+.testimonials_area .round-planet .shape,
+.reservation .round-planet .shape {
+  opacity: 0.3 !important;
+}
 
 /*---------------------------------------------------- */
 
